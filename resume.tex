@@ -1,0 +1,261 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Tej Gumaste} \\ \vspace{1pt}
+    \small (785) 424 - 2555 $|$ \href{mailto:tej.gumaste@gmail.com}{\underline{tej.gumaste@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/tej-gumaste/}{\underline{linkedin.com/in/tej-gumaste}} $|$
+    \href{https://www.github.com/Vegito2367}{\underline{github.com/Vegito2367}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Kansas}{Lawrence, KS}
+      {Bachelor of Science in Computer Science and Minor in Mathematics - GPA 3.85} {Expected graduation May 2026}
+      \resumeSubheading
+      {Awards}{}
+      {SELF fellow, University Scholar (Top 5\%), IEA Full Scholarship Recipient (Top 2\%), Babcock Math Scholarship (Top 5\%)}{}
+
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C\#, C++, C, MatLab, Solidity, Javascript, Typescript, Scala} \\
+     \textbf{Technologies}{: Git, VS Code, Visual Studio, Android Studio, PyCharm, Docker, Unity, Postgresql, Playwright} \\
+     \textbf{Frameworks}{: React, NextJS, Svelte, Agile, ExpressJS}\\
+    }}
+    \textbf{Machine Learning}{: Logistic Regression, Feature Selection (RFE), TF-IDF, Model Evaluation}\\
+     \textbf{Data Processing}{: NumPy, Pandas, Matplotlib, Sklearn}
+    
+    
+ \end{itemize}
+  
+%-------------Relevant Experience-------- 
+\section{Experience}
+  \resumeSubHeadingListStart  
+  \resumeSubheading
+      {Software Engineering Intern - Funding \& Payments}{Jun. 2025 - Aug. 2025}
+      {Gemini Exchange}{New York City, NY}
+      \resumeItemListStart
+         \resumeItem{Engineered 5+ smoke tests using Playwright for web and mobile platforms that reduced deployment lifecycle by 15\%}
+          \resumeItem{Co-developed the backend integration of CrossRiver Bank wire payment rails, implementing transaction handling logic, and validation flows—supporting an expected \$4M in additional annual revenue}
+      \resumeItemListEnd
+  \resumeSubheading
+      {Research Engineer - \href{https://tfsi-research.vercel.app}{\underline{View Project}}}{Feb. 2024 -- Present}
+      {Blakemore Lab - KU}{Lawrence, KS}
+      
+      \resumeItemListStart
+        \resumeItem{Developed data engineering pipelines to efficiently process and visualize atomic properties of \textbf{1500+} structures}
+        \resumeItem{Detected the presence and effects of metals within the crystallographic files through large scale data analysis}
+        \resumeItem{Automated the analysis workflow for crystallographic structures, reducing the time from \textbf{6 months to 5 minutes}}
+        
+      \resumeItemListEnd
+
+   \resumeSubheading
+      {Software Engineering Intern}{Jun. 2023 -- Dec. 2023}
+      {Security Benefit}{Topeka, KS}
+      \resumeItemListStart
+        \resumeItem{Automated Sailpoint access management by building custom APIs, resulting in a time savings of \textbf{\emph{100 hours per year}}}
+         \resumeItem{Developed and maintained ETL processes using Python and \textbf{AWS (S3)} to support internal and consumer applications}
+      \resumeItemListEnd
+      
+       
+      
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{EirAI - HackKU25 Theme Track 2nd Place - \href{https://github.com/Vegito2367/DAIM}{\underline{View Project}}} $|$ \emph{NextJS, PostgreSQL, OpenAI, Gemini}}{Apr. 2025}
+          \resumeItemListStart
+            \resumeItem{Co-developed EirAI, a tool that transcribes patient-doctor conversations into SOAP notes, reducing administrative bloat}
+            \resumeItem{Implemented semantic extraction and indexing for \textbf{~73,000 codes} ICD-10 code, matched to treatments using a \textbf{1.5M+ row} simulated dataset}
+            \resumeItem{Engineered \textbf{approval prediction module} using historical provider data to estimate insurance claim success rates}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{DAIM - AI Track Winner - \href{https://github.com/Vegito2367/DAIM}{\underline{View Project}}} $|$ \emph{NextJS, Tailwind CSS, Pinata IPFS, Metamask, Autonomys Auto Drive}}{Mar. 2025}
+          \resumeItemListStart
+            \resumeItem{Won the Autonomys AI Challenge at Midwest-Blockathon for DAIM, a decentralized AI model and dataset marketplace}
+            \resumeItem{Developed a full-stack Web3 platform enabling secure, open-source sharing of AI models using blockchain and IPFS.}
+            \resumeItem{Integrated generative AI tools for code summarization and model context to enhance user experience and discovery.}
+          \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{Optimized RFE Feature Selection with LogRes - \href{https://github.com/Vegito2367/LogResFeatureSelection}{\underline{View Project}}} $|$ \emph{Python, NumPy, StandardScaler}}{Feb. 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a custom \textbf{Logistic Regression} model using NumPy for binary classification on heart attack risk data}
+            \resumeItem{Processed and analyzed a \textbf{230K-row dataset}, optimizing computational efficiency for large-scale data}
+            \resumeItem{Implemented Recursive Feature Elimination (RFE) from scratch, reducing features from \textbf{35 to 7}, improving interpretability for \textbf{clinical decision-making} while maintaining a \textbf{94\% accuracy}}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{MathVenture - \href{https://math-venture.com/}{\underline{View Project}}} $|$ \emph{NextJS, Supabase, Tailwind CSS, PostgreSQL}}{Feb. 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a speed math platform that dynamically generates math problems and analytics using a \textbf{custom math engine}}
+            \resumeItem{Designed a \textbf{RESTful API} using \textbf{Next.js} app router to handle attempt initialization and question retrieval}
+            \resumeItem{Achieved \textbf{30+ user} sign-ups within the first week of beta launch, demonstrating strong early adoption and user interest}
+          \resumeItemListEnd
+    
+    % \resumeProjectHeading
+    %     {\textbf{Email Classifier - \href{https://github.com/Vegito2367/EmailClassifier}{\underline{View Project}}} $|$ \emph{Python, simpleGmail, Sklearn, Matplotlib, Numpy, Pandas}}{}
+    %       \resumeItemListStart
+    %         \resumeItem{Performed sentiment analysis using TfIDF vectorization on \textbf{30,000 emails}, enhancing email categorization accuracy}
+    %         \resumeItem{Utilized Machine Learning techniques like Logistic Regression to develop a email classifier with \textbf{97.8\% accuracy}}
+    %         \resumeItem{Established an \textbf{automated} Python script that classifies emails when received by the inbox}
+    %       \resumeItemListEnd
+          % \resumeProjectHeading
+          % {\textbf{Zer0 - \href{https://github.com/Vegito2367/Zer0Scripts}{\underline{View Project}}} $|$ \emph{Unity, Blender, C\#, GIMP}}{}
+          % \resumeItemListStart
+          %   \resumeItem{Received \textbf{160+ installs} on Google Play across \textbf{15 countries}, and featured on local gaming blogs}
+          %   \resumeItem{Developed a first-person 3D android parkour game using C\# and the Unity API}
+          %   \resumeItem{Implemented physics-based movements such as wall running, grappling, and jetpacks, enhancing the game's realism and player engagement}
+            
+          % \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\section{Leadership}
+  \resumeSubHeadingListStart
+       \resumeSubheading
+      {VP Engineering and Education}{Aug. 2023 --  Apr. 2024}
+      {KU Blockchain Institute (KUBI)}{Lawrence, KS}
+      \resumeItemListStart
+      \resumeItem{Spearheaded bi-weekly blockchain (Ethereum) and web development (React, NextJS, Express) workshops for groups of \textbf{15+} students, utilizing hands-on projects and real-world examples to enhance learning outcomes}
+        \resumeItem{Engineered smart contracts for KUBI's Decentralized Autonomous Organization that logged over \textbf{500 hours} of club participation}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+
+
+
+
+%-------------------------------------------
+\end{document}
