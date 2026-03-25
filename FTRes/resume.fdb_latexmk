@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759849582.83061 "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" "resume.pdf" "resume" 1759849583.3351 0
-  "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" 1759849582.60381 12819 663a39a91c60f4ca4a446670fd44a0bd ""
+["pdflatex"] 1774405178.47925 "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" "resume.pdf" "resume" 1774405179.28502 0
+  "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" 1774405177.84338 12935 a0257a7181363e4082048c288cc24acd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -96,12 +96,12 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty" 1717359999 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
-  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1753240307 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
+  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1764465075 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resume.aux" 1759849583.29533 818 6dfd989006c1ab2254768e2f92dee652 "pdflatex"
-  "resume.out" 1759849583.29579 483 8be03d8d5fbe771db3f8bae3baf187f0 "pdflatex"
-  "resume.tex" 1759849582.60381 12819 663a39a91c60f4ca4a446670fd44a0bd ""
+  "resume.aux" 1774405179.22321 818 6dfd989006c1ab2254768e2f92dee652 "pdflatex"
+  "resume.out" 1774405179.22392 483 8be03d8d5fbe771db3f8bae3baf187f0 "pdflatex"
+  "resume.tex" 1774405177.84338 12935 a0257a7181363e4082048c288cc24acd ""
   (generated)
   "resume.aux"
   "resume.log"

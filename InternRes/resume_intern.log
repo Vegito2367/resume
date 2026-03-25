@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 SEP 2025 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 MAR 2026 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,18 +290,18 @@ Package hyperref Info: Link coloring OFF on input line 106.
 \openout3 = `resume_intern.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 116.
+(Font)              <9> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 116.
+(Font)              <6> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 116.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 116.
+(Font)              <5> on input line 115.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 115.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 127.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 154.
+(Font)              <7> on input line 126.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 153.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
@@ -324,16 +324,16 @@ Package rerunfilecheck Info: File `resume_intern.out' has not changed.
 Here is how much of TeX's memory you used:
  10982 strings out of 473190
  174131 string characters out of 5715801
- 616419 words of memory out of 5000000
+ 619419 words of memory out of 5000000
  34089 multiletter control sequences out of 15000+600000
  581942 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,427b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on resume_intern.pdf (1 page, 83307 bytes).
+Output written on resume_intern.pdf (1 page, 84890 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
