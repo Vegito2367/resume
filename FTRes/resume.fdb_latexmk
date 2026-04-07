@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1774891953.85666 "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" "resume.pdf" "resume" 1774891954.22569 0
-  "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" 1774891953.68311 12752 6cca0a525893d7f8c58c44a071e22d80 ""
+["pdflatex"] 1775521569.46746 "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" "resume.pdf" "resume" 1775521569.84209 0
+  "/Users/seksierthanyou/Desktop/Resume/resume/FTRes/resume.tex" 1775521568.92645 12772 f83aea11e27dd06443887789c2ae6a0b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1136768653 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -99,9 +99,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1764465075 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resume.aux" 1774891954.19877 818 6dfd989006c1ab2254768e2f92dee652 "pdflatex"
-  "resume.out" 1774891954.1993 483 8be03d8d5fbe771db3f8bae3baf187f0 "pdflatex"
-  "resume.tex" 1774891953.68311 12752 6cca0a525893d7f8c58c44a071e22d80 ""
+  "resume.aux" 1775521569.81428 818 6dfd989006c1ab2254768e2f92dee652 "pdflatex"
+  "resume.out" 1775521569.81466 483 8be03d8d5fbe771db3f8bae3baf187f0 "pdflatex"
+  "resume.tex" 1775521568.92645 12772 f83aea11e27dd06443887789c2ae6a0b ""
   (generated)
   "resume.aux"
   "resume.log"
